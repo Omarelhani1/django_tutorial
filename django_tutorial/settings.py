@@ -81,7 +81,7 @@ DATABASES = {
 	'NAME': os.environ.get('mysql_db'),
 	'USER': os.environ.get('mysql_user'),
 	'PASSWORD': os.environ.get('mysql_password'),
-	'HOST': os.eviron.get('mysql_host'),
+	'HOST': os.environ.get('mysql_host'),
 	'PORT': 3306,
     }
 }
